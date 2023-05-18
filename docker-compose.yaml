@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  postgres-student-helper:
+    image: redis:7.2-rc2-bullseye
+    ports:
+      - "6379:6379"
